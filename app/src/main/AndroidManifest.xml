@@ -9,8 +9,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,38 +18,31 @@
         </activity>
         <activity
             android:name=".Activity2"
-            android:label="@string/title_activity_2"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_2" >
         </activity>
         <activity
             android:name=".Activity3"
-            android:label="@string/title_activity_3"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_3" >
         </activity>
         <activity
             android:name=".Activity4"
-            android:label="@string/title_activity_4"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_4" >
         </activity>
         <activity
             android:name=".Activity5"
-            android:label="@string/title_activity_5"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_5" >
         </activity>
         <activity
             android:name=".Activity6"
-            android:label="@string/title_activity_6"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_6" >
         </activity>
         <activity
             android:name=".Activity7"
-            android:label="@string/title_activity_7"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_7" >
         </activity>
         <activity
             android:name=".Activity8"
-            android:label="@string/title_activity_8"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_8" >
         </activity>
     </application>
 
