@@ -2,7 +2,7 @@ package ua.com.webacademy.beginnerslection6;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 public class Activity5 extends AppCompatActivity {
@@ -15,7 +15,7 @@ public class Activity5 extends AppCompatActivity {
         Intent intent = getIntent();
         GroupP groupP = intent.getParcelableExtra("Group");
 
-        TextView textView = (TextView) findViewById(R.id.textView);
+        TextView textView =  findViewById(R.id.textView);
         textView.setText("Group №: " + groupP.Number + ", students: " + groupP.Students.length);
     }
 }

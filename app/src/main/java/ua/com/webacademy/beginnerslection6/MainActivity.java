@@ -2,7 +2,7 @@ package ua.com.webacademy.beginnerslection6;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             if (requestCode == 1) {
                 String text = data.getStringExtra("Result");
 
-                TextView textView6 = (TextView) findViewById(R.id.textViewResult6);
+                TextView textView6 =  findViewById(R.id.textViewResult6);
                 textView6.setText(text);
             }
         }

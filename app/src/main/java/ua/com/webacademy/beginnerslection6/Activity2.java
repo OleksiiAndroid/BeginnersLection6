@@ -1,7 +1,8 @@
 package ua.com.webacademy.beginnerslection6;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Activity2 extends AppCompatActivity {
 
